@@ -11,15 +11,12 @@ let massa = parseFloat(prompt("Digite seu peso em kg: "))
 let altura = parseFloat(prompt("Digite sua altura em metros: "))
 let IMC = massa / (altura * altura)
 
-if(IMC >= 18.4) {
+if(IMC < 18.5) {
     console.log("Você está abaixo do peso ideal, " + IMC)
 }
-else if(IMC >= 18.4 && 25) {
+else if(IMC <= 24.9) {
     console.log("Você está no peso ideal, " + IMC)
 }
-else if(IMC >= 25){
-    console.log("Você está acima do peso, " + IMC)
-}
 else {
-    console.log("IMC inválido.")
+    console.log("Você está acima do peso, " + IMC)
 }

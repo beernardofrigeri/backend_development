@@ -18,3 +18,5 @@ else if (b + c > a) {
 else {
     console.log("Não é um triângulo")
 }
+
+// Versão corrigida em ex2_2.js

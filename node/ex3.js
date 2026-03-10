@@ -19,6 +19,9 @@ if((a == b) && (a == c)){
 else if(a === b || a === c || b === c){
     console.log("É um triângulo isósceles.")
 }
-else {
+else if(a + b > c && a + c > b && b + c > a){
     console.log("Triângulo escaleno.")
+}
+else {
+    console.log("Triângulo inválido.")
 }
